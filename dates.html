@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_inicio.css">
+    <title>Projeto EG</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <img src="img/banguela2.png" class="logo" align="left" alt="Banguela">
+
+            <ul>
+                <li><a href="" onclick="inicio(); return false">Início</a></li>
+                <li><a href="" onclick="declaracao(); return false">Declaração</a></li>
+                <li><a href="" class="ativo" onclick="dates(); return false">Dates</a></li>
+                <li><a href="" onclick="metas(); return false">Metas</a></li>
+            </ul>
+        </nav>
+
+        <section class="principal">
+            <h1>Filmes</h1>
+
+            <p>
+                <br> 1. Barbie escola de princesas
+                <br> 2. Zathura
+                <br> 3. Pra sempre ao seu lado
+                <br> 4. A culpa é das estrelas
+                <br> 5. O assassino: o primeiro alvo 
+                <br> 6. Me chame pelo seu nome.
+                <br> 7. Ponte para Terabitia
+                <br> 8. Encanto
+                <br> 9. Red: crescer é uma fera.
+                <br> 10. A culpa é das estrelas.
+                <br> 11. Scooby-doo 1
+                <br> 12. Scooby-doo 2
+                <br> 13. Scooby-doo 3
+                <br> 14. Monstros S.A.</p>
+                <br>
+            <h1>Sagas/séries</h1>
+
+            <p>
+                <br> 1. Saga Transformers (5)
+                <br> 2. Piratas do Caribe (5)
+                <br> 3. Harry Potter (7)
+                <br> 4. Todo mundo em Pânico (5)
+            </p>
+            
+        </section>
+    </header>
+
+    <script>
+        function declaracao(){
+            return location.href = "declaracao.html";
+        }
+        function inicio(){
+            return location.href = "inicio.html";
+        }
+        function dates(){
+            return location.href = "dates.html";
+        }
+        function metas(){
+            return location.href = "metas.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_metas.css">
+    <title>Projeto EG</title>
+</head>
+<body>
+    <header>
+        
+        <nav class="menu">
+            <img src="img/banguela2.png" class="logo" align="left" alt="Banguela">
+            
+            <ul>
+                <li><a href="" onclick="inicio(); return false">Início</a></li>
+                <li><a href="" onclick="declaracao(); return false">Declaração</a></li>
+                <li><a href="" onclick="dates(); return false">Dates</a></li>
+                <li><a href="" class="ativo" onclick="metas(); return false">Metas</a></li>
+            </ul>
+        </nav>
+
+        <section class="principal">
+            <p>
+               <br> 
+               <br> Bem, nós temos inúmeros objetivos mas citarei aqui uns dos mais importantes e tão sonhados por nós dois:
+               <br>
+               <br> 🌑 Continuar sempre assistindo juntos.
+               <br> 🌑 Criar inimagináveis momentos. Sendo muitos deles únicos.
+               <br> 🌑 O nosso Tamtamzin ou Sirius. 
+               <br> 🌑 Viajar o mundo. 
+               <br> 🌑 Noite de jogos.
+               <br> 🌑 cozinhar juntos.
+               <br> E uns dos meus preferidos...
+               <br> 🌑 O apartamento cheio de easter eggs.</p>
+        </section>
+    </header>
+
+    <script>
+        function declaracao(){
+            return location.href = "declaracao.html";
+        }
+        function inicio(){
+            return location.href = "inicio.html";
+        }
+        function dates(){
+            return location.href = "dates.html";
+        }
+        function metas(){
+            return location.href = "metas.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Seja Bem-vinda, bem &#x1F49C</h1>
+            <img src="astronauta.svg" class="left-login-image" alt="Astronauta">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário" id="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" id="Senha">
+                </div>
+                <button class="btn-login" onclick="logar(); return false">Login</button>
+            </div>
+        </div>
+    </div> 
+    
+    <script>
+        function logar(){
+            var usuario = document.getElementById('Usuário').value;
+            var senha =document.getElementById('Senha').value;
+
+            if(usuario == "ellenzinha" && senha == '140422'){
+                return location.href = "inicio.html";
+            }else{
+                alert('Usuário ou senha incorretos');
+            }
+        }
+    </script>   
+</body>
+</html>
